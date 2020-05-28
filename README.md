@@ -601,6 +601,8 @@ var Person = t.struct({
 
 Enums are displayed as `Picker`s.
 
+By default, the `Picker` will close when the value is changed. You can prevent collapsing on change by adding the option `collapseOnChange` as false. 
+
 #### iOS select `config` option
 
 The bundled template will render an iOS `UIPickerView` component, but collapsed into a touchable component in order to improve usability. A `config` object can be passed to customize it with the following parameters:
